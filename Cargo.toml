@@ -1,6 +1,6 @@
 [package]
 name = "foundation"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["kaleb <kaleb.r.burris@gmail.com>"]
 edition = "2021"
 
@@ -14,5 +14,3 @@ dioxus-logger = "0.5.1"
 [features]
 desktop = ["dioxus/desktop"]
 web = ["dioxus/web"]
-
-
