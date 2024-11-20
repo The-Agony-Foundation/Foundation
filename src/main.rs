@@ -11,12 +11,10 @@ fn main() {
 
 #[component]
 fn App() -> Element {
-    // Build cool things ✌️
-
     rsx! {
         div {
             style: "text-size: 200px",
-            "Hello, world!"
+            "Hello!"
         }
     }
 }
