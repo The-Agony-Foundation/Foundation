@@ -4,6 +4,7 @@
 /dist/
 /static/
 /.dioxus/
+*.br
 
 # this file will generate by tailwind:
 /assets/tailwind.css
