@@ -1,14 +1,20 @@
 [package]
 name = "foundation"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["kaleb <kaleb.r.burris@gmail.com>"]
 edition = "2021"
+repositry = "https://github.com/The-Agony-Foundation/Foundation"
+license = "MIT"
+keywords = ["foundation", "dioxus", "rust", "web", "desktop", "fullstack"]
+categories = ["games", "game-engines", "wasm"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-
-dioxus = { version = "0.5", features = ["desktop"] }
-
+dioxus = "0.5"
 # Debug
 dioxus-logger = "0.5.1"
+
+[features]
+desktop = ["dioxus/desktop"]
+web = ["dioxus/web"]
